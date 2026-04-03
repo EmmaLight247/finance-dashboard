@@ -1,6 +1,33 @@
 <HEAD
 # finance-dashboard
 
+A responsive, interactive finance dashboard built with React + Vite + Tailwind CSS. Users can track income, expenses, and financial trends, with light/dark mode and role-based UI features.
+
+# Tech Stack
+
+React (Vite template)
+Tailwind CSS for styling
+Recharts for charts
+Context API for state management
+Local Storage for data persistence
+
+# Features
+
+Dashboard Summary: Displays Balance, Income, Expenses in cards.
+Charts:
+Balance Trend: Line chart showing balance over time.
+Spending Breakdown: Pie chart of expenses by category.
+Transactions Table:
+Search by category.
+Filter by income/expense.
+Role-based UI: Admin can see “Add/Edit” options.
+Insights Section: Shows the highest spending category.
+Role Simulation: Viewer vs Admin.
+Dark Mode: Toggle between light and dark themes.
+Responsive Design: Works on mobile, tablet, and desktop.
+Local Storage: Data persists after page reloads.
+Smooth Animations: Hover and transition effects on cards, tables, and buttons.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
